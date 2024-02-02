@@ -1,0 +1,162 @@
+/*=====body style====*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #434455;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*======Header section======*/
+
+.nav-web {
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.nav-logo {
+    color: #2E2F42;
+}
+
+.nav-logo:hover,
+.nav-logo:focus {
+    color: #4D5AE5;
+}
+
+.nav-link-item {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link-item:hover,
+.nav-link-item:focus {
+    color: #404BBF;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts-list-item-link {
+    color: #434455;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-list-item-link:hover,
+.contacts-list-item-link:focus {
+    color: #404BBF;
+}
+
+/*======Main section======*/
+
+.main {
+    color: #2E2F42;
+}
+
+.section_one {
+    background-color: #2E2F42;
+}
+
+.section-caption {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.main-button {
+    background-color: #4D5AE5;
+    color: #FFF;
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+.section_three {
+    background-color: #F4F4FD;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-list-item-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-list-item-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-list-item_three {
+    background-color: #FFFFFF
+}
+
+/*======Footer section======*/
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-web {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
